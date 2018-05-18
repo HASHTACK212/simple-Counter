@@ -1,0 +1,20 @@
+{
+    "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+    },
+    "description": "Keep track of a counter",
+    "icons": {
+      "128": "icons/icon.png"
+    },
+    "manifest_version": 2,
+    "name": "Simple Counter",
+    "permissions": [],
+    "short_name": "Counter",
+    "version": "1.0.0",
+    "author": "Jacobawesome82 and HArchitect",
+    "browser_action": {
+      "default_icon": "icons/icon.png",
+      "default_popup": "index.html"
+    }
+  }
