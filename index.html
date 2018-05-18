@@ -2,6 +2,13 @@
     <head>
         <script src="active.js"></script>
         <style>
+            body{
+                background-color: #27f27f;
+            }
+            #counter{
+                border: 1px solid #057a09;
+                border-radius: 7px;
+            }
             #count_button{
                 background-color: blue;
                 border-radius: 10px;
@@ -17,9 +24,11 @@
         </style>
     </head>
     <body>
-        <div id="counter">0</div>
-        <input type="button" id="count_button" value="+1"/>
-        <input type="button" id="reset" value="Reset"/>
+        <div align="center">
+            <div id="counter" class="border">0</div>
+            <input type="button" id="count_button" value="+1"/>
+            <input type="button" id="reset" value="Reset"/>
+        </div>
     </body>
 </html>
 
